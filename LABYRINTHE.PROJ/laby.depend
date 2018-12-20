@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1545317307 source:c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\coordinates.cpp
+	"coordinates.h"
+
+1545317307 c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\coordinates.h
+
+1545317192 source:c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\main.cpp
+	<iostream>
+	<conio.h>
+	"display.h"
+	"graphics.h"
+	"laby.h"
+	"robot.h"
+
+1461230036 source:c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\winbgi.cpp
+	<windows.h>
+	<stddef.h>
+	<stdio.h>
+	<math.h>
+	"graphics.h"
+
+1461230026 c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\graphics.h
+
+1545316218 source:c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\laby.cpp
+	"laby.h"
+
+1545316218 c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\laby.h
+	<vector>
+
+1545317307 source:c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\robot.cpp
+	"robot.h"
+
+1545317307 c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\robot.h
+	"coordinates.h"
+	"laby.h"
+
+1545317307 source:c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\display.cpp
+	"display.h"
+	<iostream>
+	"graphics.h"
+
+1545317307 c:\users\mad scientifique\documents\projects\labyrobot\labyrinthe\display.h
+	"robot.h"
+	"laby.h"
+
