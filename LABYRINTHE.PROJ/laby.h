@@ -2,6 +2,8 @@
 #define LABY_H
 
 #include <vector>
+#include <fstream>
+#include <iostream>
 
 class laby
 {
@@ -13,6 +15,7 @@ class laby
         int getWidth() const;
         void placeBlock(int x, int y);
         void removeBlock(int x, int y);
+		bool chargerOrbes(const std::string& fichier)const;
 
     private:
         int d_height;

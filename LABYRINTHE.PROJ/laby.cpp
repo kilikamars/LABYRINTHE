@@ -47,3 +47,25 @@ void laby::removeBlock(int x, int y)
 {
     d_map[y][x]=GROUND;
 }
+
+bool laby::chargerOrbes(const std::string & fichier) const
+{
+	std::ofstream os(fichier);
+	if (!os)
+	{
+		std::cerr << "Erreur ouverture fichier" << std::endl;
+		return false;
+	}
+	for (int y = 0; y < d_height; y++)
+	{
+		for (int x = 0; x < d_width; x++)
+		{
+			os << d_map[y][x] << " ";
+		}
+		os<<std::endl;
+	}
+	os.close();
+	return true;
+}
+
+
